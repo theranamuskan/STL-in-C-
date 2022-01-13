@@ -132,3 +132,40 @@ using namespace std;
 //     cout << "Second array " << (arr2.empty() ? "is empty " : "is not empty.");
 //     return 0;
 // }
+
+
+//Ninth ---> size()
+// It returns the length of the array.
+
+//int main()
+//{
+//
+//    array<int, 5> arr = {34, 3, 4, 5, 7};
+//    cout << "The size of the arr is : " << arr.size() << endl;
+//    cout << "Total memory allocated of the array in bytes is : " << sizeof(arr);
+//     return 0;
+//}
+//
+// Tenth ----> swap()
+//It swaps the element the array 
+
+//int main()
+//{
+//    array<int, 5> arr1 = {3, 5, 6, 7, 3};
+//    array<int, 5> arr2 = {6, 7, 8, 3, 2};
+//    arr2.swap(arr1);
+//    cout << "The element of arr2 is in this array : " << endl;
+//    for (auto i = 0; i < arr1.size(); i++)
+//    {
+//
+//        cout << arr1[i] << " ";
+//    }
+//    cout<<" \n";
+//    cout << "The element in the arr1 is in this array : " << endl;
+//    for (auto i = 0; i < arr2.size(); i++)
+//    {
+//
+//        cout << arr2[i] << " ";
+//    }
+//      return 0;
+//}
