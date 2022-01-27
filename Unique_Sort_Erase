@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    vector<int> vec = {23, 44, 5, 44, 32, 34, 23, 67, 54, 5};
+    cout << "Before Sorting the element: " << endl;
+    for (auto it : vec)
+    {
+        cout << it << " ";
+    }
+    cout << " \n";
+    sort(vec.begin(), vec.end());
+    cout << "After sorting the element:"
+         << "\n";
+    for (auto it : vec)
+    {
+        cout << it << " ";
+    }
+    cout << " \n";
+    cout << "and now elements after removing the duplicates :"
+         << "\n";
+    vec.erase(unique(vec.begin(), vec.end()));
+    for (auto it : vec)
+    {
+        cout << it<<" ";
+    }
+    cout << " \n";
+    return 0;
+}
